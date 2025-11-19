@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  background: darkblue;
 }
 
 main {
@@ -18,4 +19,11 @@ article {
 aside {
   flex: 1;
   overflow-y: auto;
+}
+
+header p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 5px 0 0 0;
 }
