@@ -21,6 +21,30 @@ aside {
   overflow-y: auto;
 }
 
+header {
+  padding: 20px 15px;
+  border-bottom: 1px solid #DDD;
+}
+
+header .logo {
+  font-size: 50px;
+  /* bigger logo */
+  color: #351053d3;
+  /* your theme color */
+  margin-right: 10px;
+  /* space between logo and name */
+  vertical-align: middle;
+  /* align with text */
+}
+
+header h1 {
+  display: inline-block;
+  /* keep logo and name on the same line */
+  font-family: 'Yeseva One', sans-serif;
+  font-size: 36px;
+  margin: 0;
+}
+
 header p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
