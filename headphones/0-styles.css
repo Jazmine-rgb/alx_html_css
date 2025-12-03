@@ -188,3 +188,74 @@ body {
   font-size: 14px;
 }
 
+.results {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+  height: 470px;
+  background-repeat: no-repeat;
+  padding-bottom: 230px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 175px;
+}
+
+.testimonial p {
+  width: 620px;
+  line-height: 23px;
+  color: white;
+}
+
+.testimonial h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+
+.pentagon-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.pentagon-box {
+  width: 150px;
+  height: 150px;
+  background-image: url("images/pentagone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  }
+
+
+  .percent {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .label {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+
+
